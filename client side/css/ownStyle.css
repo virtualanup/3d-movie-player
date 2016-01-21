@@ -1,0 +1,132 @@
+body {
+	background-color:#1C1E22;
+}
+
+#body {
+    width:1000px;
+    margin:auto;
+    /*border:2px solid grey; */
+		font-family:"Verdana",sans-serif;		
+    background-color:#1C1E22; /*#fcfdfd;*/
+}
+
+h1 {
+    font-size:2em;
+    text-align:center;
+    color:#ffffff;    
+    padding:5px;
+    margin:5px;
+		/*background-color:#2E6E9E;
+		border-radius:6px;*/
+}
+h2 {
+    text-align:center;
+    color:white;
+    margin:0px;
+    padding:2px;
+    background-color:#373A42;
+    border-bottom:2px solid black;
+		border-radius:6px;
+}
+p {	
+	margin:0px;
+}
+.uncollapse {
+    overflow: hidden;
+    clear:both;
+    height: 0px;
+    width: 0px;
+}
+#draw { 
+    width:45%;
+    float:left;
+    margin:auto;
+}
+
+#myCanvas{  
+    display: block;
+    width:400px;
+    height:400px;
+    margin:auto;
+    padding:0px;
+    /*border:5px solid #grey;*/
+		border-radius:5px;
+    background-color:black; /*#666;*/
+}
+#myCanvas2{  
+    display: block;
+    width:400px;
+    height:400px;
+    margin:auto;
+    padding:0px;
+    /*border:5px solid #grey;*/
+        border-radius:5px;
+    background-color:black; /*#666;*/
+}
+#mastercanvas{  
+    display: block;
+    width:800px;
+    height:400px;
+    margin:auto;
+    padding:0px;
+    /*border:5px solid #grey;*/
+        border-radius:5px;
+    background-color:black; /*#666;*/
+    z-index : 1000;
+}
+#mybufferCanvas {
+    width:3px;
+    height:3px;
+    border:1px solid #000000;
+    background:#000;
+    display:none;
+		
+}
+.control
+{
+    width:26%;  
+    height:406px;
+    margin:0px 5px 5px;
+    border:1px solid grey;
+		border-radius:6px;
+    background:#7D7D7D;
+}
+#control1 {     
+    float:left;
+}
+#control2 { 
+    float:right;
+}
+.controlcontent {
+    margin:5px;     
+}
+
+#below {
+    clear:both; 
+}
+
+#control3 {
+    padding:5px;
+    margin:5px;
+    /*border:1px solid grey;
+		border-radius:6px;
+    background-color:#798593;*/
+}
+#footer {
+    text-align:center;
+    color:#666;
+
+}
+
+#playbutton{
+		width:80px;
+    float:left;
+    
+}
+
+#playslider{
+    float:right;    
+    width: 870px;
+    margin: 12px 10px 0px 0px;
+    
+}

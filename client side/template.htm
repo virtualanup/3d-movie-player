@@ -1,0 +1,13 @@
+<div id="one"  style=" height:400px; width:400px; background-color:yellow;"></div>
+<script src="libs/jquery-2.1.0.min.js"></script>
+<script>
+(function(){
+prev=Date.now();
+$('#one').click(function(e){
+  $('#one').append(Date.now()-prev+"<br>");
+	prev=Date.now();
+  }
+	);
+	
+})();
+</script>
